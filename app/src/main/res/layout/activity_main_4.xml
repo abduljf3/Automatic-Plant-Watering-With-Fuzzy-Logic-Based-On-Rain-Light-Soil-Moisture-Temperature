@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:columnCount="2"
+            android:rowCount="4"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="@drawable/card_background"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/tvL1Status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="L1 Status"
+                    android:textSize="18sp"
+                    android:textColor="@color/text_primary" />
+
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:id="@+id/toggleL1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:thumbTint="@color/primaryColor"
+                    android:trackTint="@color/primaryDarkColor" />
+
+                <TextView
+                    android:id="@+id/tvL1DataView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(data view)"
+                    android:textColor="@color/text_secondary"
+                    android:layout_marginTop="8dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="@drawable/card_background"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/tvL2Status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="L2 Status"
+                    android:textSize="18sp"
+                    android:textColor="@color/text_primary" />
+
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:id="@+id/toggleL2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:thumbTint="@color/primaryColor"
+                    android:trackTint="@color/primaryDarkColor" />
+
+                <TextView
+                    android:id="@+id/tvL2DataView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(data view)"
+                    android:textColor="@color/text_secondary"
+                    android:layout_marginTop="8dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="@drawable/card_background"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/tvL3Status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="L3 Status"
+                    android:textSize="18sp"
+                    android:textColor="@color/text_primary" />
+
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:id="@+id/toggleL3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:thumbTint="@color/primaryColor"
+                    android:trackTint="@color/primaryDarkColor" />
+
+                <TextView
+                    android:id="@+id/tvL3DataView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(data view)"
+                    android:textColor="@color/text_secondary"
+                    android:layout_marginTop="8dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="@drawable/card_background"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/tvSoilMoisture"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Soil Moisture"
+                    android:textSize="18sp"
+                    android:textColor="@color/text_primary" />
+
+                <TextView
+                    android:id="@+id/tvSoilMoistureDataView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(data view)"
+                    android:textColor="@color/text_secondary"
+                    android:layout_marginTop="8dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="@drawable/card_background"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/tvTemperature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Temperature"
+                    android:textSize="18sp"
+                    android:textColor="@color/text_primary" />
+
+                <TextView
+                    android:id="@+id/tvTemperatureDataView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(data view)"
+                    android:textColor="@color/text_secondary"
+                    android:layout_marginTop="8dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="@drawable/card_background"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/tvHumidity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Humidity"
+                    android:textSize="18sp"
+                    android:textColor="@color/text_primary" />
+
+                <TextView
+                    android:id="@+id/tvHumidityDataView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(data view)"
+                    android:textColor="@color/text_secondary"
+                    android:layout_marginTop="8dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="@drawable/card_background"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/tvPumpStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pump Status"
+                    android:textSize="18sp"
+                    android:textColor="@color/text_primary" />
+
+                <TextView
+                    android:id="@+id/tvPumpStatusDataView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(data view)"
+                    android:textColor="@color/text_secondary"
+                    android:layout_marginTop="8dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="@drawable/card_background"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/tvPumpTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pump Time"
+                    android:textSize="18sp"
+                    android:textColor="@color/text_primary" />
+
+                <TextView
+                    android:id="@+id/tvPumpTimeDataView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(data view)"
+                    android:textColor="@color/text_secondary"
+                    android:layout_marginTop="8dp" />
+            </LinearLayout>
+
+        </GridLayout>
+    </ScrollView>
+</RelativeLayout>

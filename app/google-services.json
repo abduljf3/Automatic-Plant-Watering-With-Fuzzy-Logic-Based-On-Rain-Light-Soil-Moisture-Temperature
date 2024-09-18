@@ -1,0 +1,182 @@
+{
+  "project_info": {
+    "project_number": "198597169859",
+    "firebase_url": "https://skripsi-iot-7ac56-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "skripsi-iot-7ac56",
+    "storage_bucket": "skripsi-iot-7ac56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198597169859:android:3d25535ed6f72fd82d4876",
+        "android_client_info": {
+          "package_name": "com.example.asdtest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPBL5AuwDjFPF0UrXXYw1N6wHuBc_mr2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198597169859:android:9dccfdfb085c76a22d4876",
+        "android_client_info": {
+          "package_name": "com.example.firebasetester"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPBL5AuwDjFPF0UrXXYw1N6wHuBc_mr2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198597169859:android:59a9d385fa7e16cd2d4876",
+        "android_client_info": {
+          "package_name": "com.example.java1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPBL5AuwDjFPF0UrXXYw1N6wHuBc_mr2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198597169859:android:ef2c1f5d87cb09a52d4876",
+        "android_client_info": {
+          "package_name": "com.example.java2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPBL5AuwDjFPF0UrXXYw1N6wHuBc_mr2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198597169859:android:0a857e2134525bd32d4876",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPBL5AuwDjFPF0UrXXYw1N6wHuBc_mr2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198597169859:android:a3aaa9b39bb9c65a2d4876",
+        "android_client_info": {
+          "package_name": "com.example.skripso"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPBL5AuwDjFPF0UrXXYw1N6wHuBc_mr2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198597169859:android:46e0afd9c617f1872d4876",
+        "android_client_info": {
+          "package_name": "com.example.smartfarmv10"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPBL5AuwDjFPF0UrXXYw1N6wHuBc_mr2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198597169859:android:8448d9da91b6dcb02d4876",
+        "android_client_info": {
+          "package_name": "com.example.test2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPBL5AuwDjFPF0UrXXYw1N6wHuBc_mr2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198597169859:android:5c2f73a53f9439ff2d4876",
+        "android_client_info": {
+          "package_name": "com.example.test25"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPBL5AuwDjFPF0UrXXYw1N6wHuBc_mr2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

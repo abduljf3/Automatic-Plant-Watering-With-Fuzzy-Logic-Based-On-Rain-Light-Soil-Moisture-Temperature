@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/accentColor</item>
+    </style>
+
+    <style name="BottomNavigationView" parent="Widget.Design.BottomNavigationView">
+        <item name="itemIconSize">24dp</item>
+        <item name="itemTextAppearanceActive">@style/BottomNavigationActiveText</item>
+        <item name="itemTextAppearanceInactive">@style/BottomNavigationInactiveText</item>
+        <item name="elevation">8dp</item>
+    </style>
+
+    <style name="BottomNavigationActiveText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/primaryColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BottomNavigationInactiveText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+</resources>

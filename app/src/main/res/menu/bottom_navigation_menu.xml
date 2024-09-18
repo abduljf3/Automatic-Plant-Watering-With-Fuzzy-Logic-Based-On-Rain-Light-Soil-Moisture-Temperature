@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Home" />
+    <item
+        android:id="@+id/Info"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="Info" />
+    <item
+        android:id="@+id/navigation_analytics"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="About Me" />
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="Exit" />
+</menu>

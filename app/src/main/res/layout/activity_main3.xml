@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvL1Status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="L1 Status"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"/>
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/toggleL1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvL1Status"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/tvL2Status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="L2 Status"
+        android:layout_below="@id/toggleL1"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:textSize="18sp"/>
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/toggleL2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvL2Status"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/tvL3Status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="L3 Status"
+        android:layout_below="@id/toggleL2"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:textSize="18sp"/>
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/toggleL3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvL3Status"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/tvSoilMoisture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soil Moisture"
+        android:layout_below="@id/toggleL3"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tvTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperature"
+        android:layout_below="@id/tvSoilMoisture"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tvHumidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Humidity"
+        android:layout_below="@id/tvTemperature"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tvPumpStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pump Status"
+        android:layout_below="@id/tvHumidity"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tvPumpTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pump Time"
+        android:layout_below="@id/tvPumpStatus"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:textSize="18sp"/>
+</RelativeLayout>

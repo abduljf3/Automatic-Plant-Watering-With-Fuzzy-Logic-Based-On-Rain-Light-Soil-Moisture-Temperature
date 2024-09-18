@@ -1,0 +1,37 @@
+FUNCTION_BLOCK fuzzy_pump_control
+VAR_INPUT
+    soil_moisture : REAL;
+    temperature : REAL;
+END_VAR
+
+VAR_OUTPUT
+    pump_activation_time : REAL;
+END_VAR
+
+FUZZIFY soil_moisture
+    TERM low := (0, 1) (5, 1) (10, 0);
+    TERM medium := (5, 0) (10, 1) (15, 1) (20, 0);
+    TERM high := (15, 0) (20, 1);
+END_FUZZIFY
+
+FUZZIFY temperature
+    TERM cold := (25, 1) (28, 0) (30, 0);
+    TERM moderate := (28, 0) (30, 1) (32, 0);
+    TERM hot := (30, 0) (32, 0) (35, 1);
+END_FUZZIFY
+
+DEFUZZIFY pump_activation_time
+    TERM short := (0, 1) (10, 1) (15, 0);
+    TERM medium := (10, 0) (15, 1) (20, 0) (25, 1) (30, 0);
+    TERM long := (20, 0) (25, 1) (30, 1);
+    METHOD : COG;
+END_DEFUZZIFY
+
+RULEBLOCK main
+    AND : MIN;
+    ACT : MIN;
+    RULE 1 : IF soil_moisture IS low AND temperature IS cold THEN pump_activation_time IS short;
+    RULE 2 : IF soil_moisture IS medium AND temperature IS moderate THEN pump_activation_time IS medium;
+    RULE 3 : IF soil_moisture IS high AND temperature IS hot THEN pump_activation_time IS long;
+END_RULEBLOCK
+END_FUNCTION_BLOCK

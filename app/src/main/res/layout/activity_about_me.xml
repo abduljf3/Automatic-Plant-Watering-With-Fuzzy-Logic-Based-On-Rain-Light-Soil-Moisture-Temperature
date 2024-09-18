@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".AboutMeActivity">
+
+    <!-- Title Layout -->
+    <LinearLayout
+        android:id="@+id/layoutTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center"
+        android:background="@drawable/card_background">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tentang Aplikasi"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:gravity="center"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <!-- App Information Layout -->
+    <LinearLayout
+        android:layout_below="@id/layoutTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- App Name -->
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Smart Garden IoT"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:layout_marginTop="8dp"
+            tools:ignore="HardcodedText" />
+
+        <!-- App Version -->
+        <TextView
+            android:id="@+id/app_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Version 1.0"
+            android:textColor="@color/text_secondary"
+            android:textSize="16sp"
+            tools:ignore="ExtraText,HardcodedText,TextContrastCheck" />
+
+        <!-- App Description -->
+        <TextView
+            android:id="@+id/app_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+
+            android:justificationMode="inter_word"
+            android:padding="16dp"
+            android:text="Aplikasi ini dibuat untuk membatu maintenance taman agar tidak perlu repot2 melakukan pengecekan manual, data kelembaban tanah, suhu, kelembaban udara dan intensitas cahaya bisa di cek disini."
+            android:textColor="@color/text_secondary"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,TextContrastCheck,VisualLintLongText" />
+
+
+        <!-- Developers Section -->
+        <TextView
+            android:id="@+id/developers_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Credits"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:layout_marginTop="24dp"
+            tools:ignore="HardcodedText" />
+
+        <!-- Developer 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/common_google_signin_btn_icon_dark_normal"
+                android:contentDescription="TODO"
+                android:scaleType="centerCrop"
+                tools:ignore="ContentDescription,HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Abdul Jabar Nur Firdaus"
+                android:textSize="16sp"
+                android:textColor="@color/text_primary"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <!-- Developer 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+
+                android:background="@drawable/common_google_signin_btn_icon_dark"
+                android:scaleType="centerCrop"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="ChatGPT"
+                android:textSize="16sp"
+                android:textColor="@color/text_primary"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <!-- Developer 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+
+                android:background="@drawable/common_google_signin_btn_icon_dark"
+                android:scaleType="centerCrop"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="StackOverflow"
+                android:textSize="16sp"
+                android:textColor="@color/text_primary"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <!-- Bottom Navigation -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        app:menu="@menu/bottom_navigation_menu"
+        app:itemIconTint="@color/primaryColor"
+        app:itemTextColor="@color/primaryColor"
+        tools:ignore="VisualLintBottomNav" />
+</RelativeLayout>

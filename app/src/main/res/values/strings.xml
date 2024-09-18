@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">test2</string>
+    <string name="toggleL3_description">Toggle switch for L3</string>
+    <string name="toggleL4_description">Toggle switch for L4</string>
+    <string name="toggleL2_description">Toggle switch for L2</string>
+
+</resources>
