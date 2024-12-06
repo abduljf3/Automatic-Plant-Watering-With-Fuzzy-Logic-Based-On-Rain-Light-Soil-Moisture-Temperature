@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- res/values/colors.xml -->
 <resources>
-    <color name="background_color">#F5F7FA</color>
-    <color name="text_primary">#2D2D2D</color>
-    <color name="text_secondary">#9A9A9A</color>
-    <color name="divider">#E1E4E8</color>
-    <color name="graph_background">#E1E4E8</color>
-    <color name="primaryColor">#FF6200EE</color>
-    <color name="primaryDarkColor">#FF3700B3</color>
-    <color name="accentColor">#FF03DAC5</color>
+    <!-- Background Colors -->
+    <color name="bg_dark">#121212</color> <!-- Dark background -->
+    <color name="white">#FBF9F9</color> <!-- White color for the bottom navigation -->
+    <color name="background_color">#FBF9F9</color>
+    <!-- Text Colors -->
+    <color name="text_primary">#F0ECEC</color> <!-- White for primary text -->
+    <color name="text_secondary">#B0BEC5</color> <!-- Light gray for secondary text -->
 
+    <!-- Primary Colors -->
+    <color name="primaryColor">#4CAF50</color> <!-- Green for the active states -->
+    <color name="primaryDarkColor">#388E3C</color> <!-- Dark green for switches -->
+
+    <!-- Additional Colors -->
+    <color name="secondaryColor">#03A9F4</color> <!-- Blue (optional for accents) -->
+    <color name="accentColor">#FF5722</color> <!-- Orange (optional for highlights) -->
 </resources>
